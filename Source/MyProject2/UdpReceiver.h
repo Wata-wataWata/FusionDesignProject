@@ -16,19 +16,19 @@ class MYPROJECT2_API AUdpReceiver : public AActor
 	FSocket *m_Socket;
 	FUdpSocketReceiver *m_Receiver;
 
-	/* UDPƒf[ƒ^‚ª“Í‚¢‚½Û‚ÉŒÄ‚Î‚ê‚éƒR[ƒ‹ƒoƒbƒN */
+	/* UDPãƒ‡ãƒ¼ã‚¿ãŒå±Šã„ãŸéš›ã«å‘¼ã°ã‚Œã‚‹ã‚³ãƒ¼ãƒ«ãƒãƒƒã‚¯ */
 	void UdpReceivedCallback(const FArrayReaderPtr& data, const FIPv4Endpoint& ip);
 
 public:
-	/* UDP‘Ò‚¿ó‚¯ƒ|[ƒg”Ô† */
+	/* UDPå¾…ã¡å—ã‘ãƒãƒ¼ãƒˆç•ªå· */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "UDP")
 		int32 Port = 5000;
 
-	/* ƒ|[ƒg‚ğŠJ‚¢‚ÄóM‘Ò‚¿‚É‚µ‚Ü‚· */
+	/* ãƒãƒ¼ãƒˆã‚’é–‹ã„ã¦å—ä¿¡å¾…ã¡ã«ã—ã¾ã™ */
 	UFUNCTION(BlueprintCallable, Category = "UDP")
 		bool Connect();
 
-	/* ƒ|[ƒg‚ğ•Â‚¶‚ÄóM‚ğI—¹‚µ‚Ü‚· */
+	/* ãƒãƒ¼ãƒˆã‚’é–‰ã˜ã¦å—ä¿¡ã‚’çµ‚äº†ã—ã¾ã™ */
 	UFUNCTION(BlueprintCallable, Category = "UDP")
 		void Close();
 

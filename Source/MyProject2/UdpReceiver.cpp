@@ -27,7 +27,7 @@ void AUdpReceiver::Tick(float DeltaTime)
 
 }
 
-/* ƒ|[ƒg‚ðŠJ‚«ŽóMŠJŽn */
+/* ãƒãƒ¼ãƒˆã‚’é–‹ãå—ä¿¡é–‹å§‹ */
 bool AUdpReceiver::Connect()
 {
 	if (m_Socket == NULL) {
@@ -37,22 +37,22 @@ bool AUdpReceiver::Connect()
 	}
 
 	if (m_Socket != NULL) {
-		/* UDPŽóM‚ðŠJŽn */
+		/* UDPå—ä¿¡ã‚’é–‹å§‹ */
 		m_Receiver = new FUdpSocketReceiver(m_Socket, FTimespan(0, 0, 1), TEXT("UDP receiver"));
 		m_Receiver->OnDataReceived().BindUObject(this, &AUdpReceiver::UdpReceivedCallback);
 		m_Receiver->Start();
 
-		// Ú‘±¬Œ÷
+		// æŽ¥ç¶šæˆåŠŸ
 		UE_LOG(LogTemp, Log, TEXT("Connected to UDP port %d"), this->Port);
 		return true;
 	}
 
-	// Ú‘±Ž¸”s
+	// æŽ¥ç¶šå¤±æ•—
 	UE_LOG(LogTemp, Warning, TEXT("Could not open UDP port %d"), this->Port);
 	return false;
 }
 
-/*  ŽóM‚ðI—¹‚µ‚Äƒ|[ƒg‚ð•Â‚¶‚é */
+/*  å—ä¿¡ã‚’çµ‚äº†ã—ã¦ãƒãƒ¼ãƒˆã‚’é–‰ã˜ã‚‹ */
 void AUdpReceiver::Close()
 {
 	if (m_Receiver != NULL) {
@@ -83,7 +83,7 @@ FString BytesToStringFixed(const uint8 *In, int32 Count)
 	return Fixed;
 }
 
-/*  UDP‚Åƒf[ƒ^‚ª“Í‚¢‚½Û‚ÌƒR[ƒ‹ƒoƒbƒN */
+/*  UDPã§ãƒ‡ãƒ¼ã‚¿ãŒå±Šã„ãŸéš›ã®ã‚³ãƒ¼ãƒ«ãƒãƒƒã‚¯ */
 void AUdpReceiver::UdpReceivedCallback(const FArrayReaderPtr& data, const FIPv4Endpoint&)
 {
 	uint32 receivedSize = data->GetAllocatedSize();
