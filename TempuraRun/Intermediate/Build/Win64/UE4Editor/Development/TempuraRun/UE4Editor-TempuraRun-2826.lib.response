@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-TempuraRun-2826.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\Documents\Unreal Projects\TempuraRun\Intermediate\Build\Win64\TempuraRunEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"E:\Documents\Unreal Projects\TempuraRun\Intermediate\Build\Win64\UE4Editor\Development\TempuraRun\json11.cpp.obj"
+"E:\Documents\Unreal Projects\TempuraRun\Intermediate\Build\Win64\UE4Editor\Development\TempuraRun\TempuraRun.cpp.obj"
+"E:\Documents\Unreal Projects\TempuraRun\Intermediate\Build\Win64\UE4Editor\Development\TempuraRun\Default.rc2.res"
+/OUT:"E:\Documents\Unreal Projects\TempuraRun\Intermediate\Build\Win64\UE4Editor\Development\TempuraRun\UE4Editor-TempuraRun-2826.lib"
+/INCLUDE:IMPLEMENT_MODULE_TempuraRun

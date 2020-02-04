@@ -1,0 +1,13 @@
+﻿  Creating makefile for TempuraRunEditor (no existing makefile)
+  Parsing headers for TempuraRunEditor
+    Running UnrealHeaderTool "E:\Documents\Unreal Projects\TempuraRun\TempuraRun.uproject" "E:\Documents\Unreal Projects\TempuraRun\Intermediate\Build\Win64\TempuraRunEditor\Development\TempuraRunEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for TempuraRunEditor in 5.9864458 seconds
+  Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 3 actions with 8 processes...
+    [1/3] UE4Editor-TempuraRun.lib
+       ���C�u���� E:\Documents\Unreal Projects\TempuraRun\Intermediate\Build\Win64\UE4Editor\Development\TempuraRun\UE4Editor-TempuraRun.lib �ƃI�u�W�F�N�g E:\Documents\Unreal Projects\TempuraRun\Intermediate\Build\Win64\UE4Editor\Development\TempuraRun\UE4Editor-TempuraRun.exp ��쐬��
+    [2/3] UE4Editor-TempuraRun.dll
+       ���C�u���� E:\Documents\Unreal Projects\TempuraRun\Intermediate\Build\Win64\UE4Editor\Development\TempuraRun\UE4Editor-TempuraRun.suppressed.lib �ƃI�u�W�F�N�g E:\Documents\Unreal Projects\TempuraRun\Intermediate\Build\Win64\UE4Editor\Development\TempuraRun\UE4Editor-TempuraRun.suppressed.exp ��쐬��
+    [3/3] TempuraRunEditor.target
+  Total time in Parallel executor: 1.28 seconds
+  Total execution time: 9.05 seconds

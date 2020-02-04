@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TempuraRun.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{7F4445EE-E2E3-4F6E-B1BB-9F94C314353C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TempuraRun.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TempuraRunEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{26925D36-FAD0-4A85-9330-530E3FC3FADB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TempuraRun">
+      <UniqueIdentifier>{7BAF9B7E-7A9D-4052-8B25-96C837265986}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TempuraRun\json11.cpp">
+      <Filter>Source\TempuraRun</Filter>
+    </ClCompile>
+    <None Include="..\..\Source\TempuraRun\json11.hpp">
+      <Filter>Source\TempuraRun</Filter>
+    </None>
+    <None Include="..\..\Source\TempuraRun\TempuraRun.Build.cs">
+      <Filter>Source\TempuraRun</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TempuraRun\TempuraRun.cpp">
+      <Filter>Source\TempuraRun</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TempuraRun\TempuraRun.h">
+      <Filter>Source\TempuraRun</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TempuraRun\UdpReceiver.cpp">
+      <Filter>Source\TempuraRun</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TempuraRun\UdpReceiver.h">
+      <Filter>Source\TempuraRun</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TempuraRun\UdpReceiver2.cpp">
+      <Filter>Source\TempuraRun</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TempuraRun\UdpReceiver2.h">
+      <Filter>Source\TempuraRun</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
