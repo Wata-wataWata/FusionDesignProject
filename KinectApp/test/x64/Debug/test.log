@@ -1,0 +1,9 @@
+﻿  Kinect.cpp
+C:\Users\U_oxo\Desktop\test\test\app.h(53,26): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+C:\Users\U_oxo\Desktop\test\test\app.h(54,26): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+  app.cpp
+C:\Users\U_oxo\Desktop\test\test\app.h(53,26): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+C:\Users\U_oxo\Desktop\test\test\app.h(54,26): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+C:\Users\U_oxo\Desktop\test\test\app.cpp(577,22): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+  コードを生成中...
+  test.vcxproj -> C:\Users\U_oxo\Desktop\test\x64\Debug\test.exe
