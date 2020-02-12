@@ -498,6 +498,7 @@
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I Runtime\ClothingSystemRuntimeInterface
+/I "E:\Documents\Unreal Projects\TempuraRun\Intermediate\Build\Win64\UE4Editor\Inc\TempuraRun"
 /I "E:\Documents\Unreal Projects\TempuraRun\Source"
 /I "E:\Documents\Unreal Projects\TempuraRun\Source\TempuraRun"
 /I Runtime\Networking\Public
