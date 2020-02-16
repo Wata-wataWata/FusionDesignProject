@@ -2,12 +2,14 @@
 授業の融合デザインプロジェクトの共同開発用リポジトリ
 
 # 環境構築
+**環境変数に注意すること。**
 
 ## Kinect for Windows SDK 2.0
-
 [ここ](https://developer.microsoft.com/ja-jp/windows/kinect/)のサイトから`Kinect for Windows SDK 2.0`をダウンロード、インストール。
 
 ## OpenCV
+たぶん3.4.8。vc14とvc15はvc15を選んだ。
+[これ](https://qiita.com/laviee/items/d2a035959b7a8acfa9c0)を見れば大体できると思う。
 
 
 
